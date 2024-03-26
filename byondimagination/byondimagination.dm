@@ -16,3 +16,15 @@ mob
 
 obj
 	step_size = 8
+
+// Real cool stuff starts here:
+
+mob
+	Login()
+		world << "Hello World!"
+
+	verb
+		say(msg as text)
+			world << "[usr] says [msg]"
+		cry()
+			world << "[usr] sheds a tear at the state of things."
